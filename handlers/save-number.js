@@ -20,7 +20,7 @@ function saveNumberHandler() {
 	// log user interaction: handler name, user input, new state
 	log.push({
 		handler: 'save number',
-		newInput,
+		newNumber,
 		numbers: JSON.parse(JSON.stringify(numbers))
 	});
 }
