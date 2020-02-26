@@ -4,5 +4,3 @@ const numbers = {
 	smallest: Infinity,
 	all: []
 };
-let smallest = numbers.smallest;
-let biggest = numbers.biggest;
