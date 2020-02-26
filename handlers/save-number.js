@@ -16,7 +16,7 @@ function saveNumberHandler() {
 	// re-render the user interface with values stored in state
 	document.getElementById('biggest').innerHTML = numbers.biggest;
 	document.getElementById('smallest').innerHTML = numbers.smallest;
-
+	document.getElementById('input').value = numbers.current;
 	// log user interaction: handler name, user input, new state
 	log.push({
 		handler: 'save number',
