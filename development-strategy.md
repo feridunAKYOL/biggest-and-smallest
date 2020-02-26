@@ -12,7 +12,7 @@ Building this site one step at a time
 
 ## 2. Init
 
-> * which files of code do you need to change?
+> * which files of code do you need to change? `I didn't change anything?` :worried: :cold_sweat:
 > * what are you changing in them?
 
 ## 3. User Story: a user can view the biggest and smallest number of the numbers that he/she enter.
