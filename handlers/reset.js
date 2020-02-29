@@ -3,7 +3,8 @@ function resetHandler() {
 	// reset state to initial values
 	numbers.current = 0;
 	numbers.past = [];
-
+	numbers.biggest = -Infinity;
+	numbers.smallest - Infinity;
 	// re-render UI with values saved in state
 	document.getElementById('biggest').innerHTML = -Infinity;
 	document.getElementById('smallest').innerHTML = Infinity;
